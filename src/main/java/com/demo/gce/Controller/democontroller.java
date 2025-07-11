@@ -8,6 +8,6 @@ public class democontroller {
 	
 	@RequestMapping("/")
 		public String home() {
-			return"New";
+			return"pages/index";
 		}
 }
